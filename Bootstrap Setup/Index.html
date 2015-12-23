@@ -9,10 +9,13 @@
 		<meta name = "author" content = "">
 		<link href = "Bootstrap/css/bootstrap.min.css" rel = "stylesheet">
 		<style type="text/css">
-#food{
+	body{
+	
+	}
+	#food{
 		text-align:center;
 		color:green;
-		font-family:Papyrus;
+		font-family:'Papyrus';
 	}
 	#japan{
 		margin-bottom:200px;
@@ -21,31 +24,41 @@
 	}
 	#china{
 		margin-bottom:200px;
-		float:right;
+		margin-right: 100px;
 		color:purple;
 	}
 	#vietnamese{
 		text-align:center;
 	}
-	#greece{
-		text-align:
-	}
-	#sush{
-		float:left;
-		height:"250"
-		width:"250"
-	}
-	#china{
-		text-align:center
-	}
-	.chow{
-		
-		position: absolute;
-		left:25%
+	.row{
+		margin:5%;
 	}
 		</style>
 	</head>
 	<body>
+		<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">chowmein</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="google.com">food <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">foo</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 		<h1 id="food">Food</h1>
 	<span id="japan">Japanese</span>
 	<span id="china">Chinese</span>
@@ -53,19 +66,38 @@
 	<span id="italian">Italian</span>
 	<span id="mexico">Mexican</span>
 	<span id="india">Indian</span>
-	<span id="middle e">Middle Eastern</span> 
+	<span id="middle-e">Middle Eastern</span> 
 	<span id="fatty">American</span>
 	<span id="greece">Greek</span>
-	<img class="sush col-md-3" src ="sushi.jpg">
 
-	<img class="chow" src = "chinese.jpg" width="250" height:auto>
-	<img class= "ham" src="hamburger.jpg" width="250" height:auto>
-	<img src ="lambgyro.jpg" width="250" height:auto>
-	<img src ="taco.jpg"  width="250" height:auto>
-	<img src ="falafel.jpg" width="250" height:auto>
-	<img src ="italy.jpg"width="250" height:auto>
-	<img src ="indianfood.jpg"width="250" height:auto>
-	<img src ="pho.jpg"width="250" height:auto>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel panel-default">
+					  <div class="panel-body">
+					    <img class="sush col-md-12 img-thumbnail" src ="sushi.jpg">
+					  </div>
+					  <div class="panel-footer col-md-12">
+					  	<a href="food.html"> Japanese food</a>
+					  </div>
+				</div>
+			</div>
+			<img class="chow col-md-4 img-thumbnail" src = "chinese.jpg" >
+			<img class="pho col-md-3 img-thumbnail"src ="pho.jpg">
+		</div>
+		<div class="row">
+			<img class= "ham col-md-3" src="hamburger.jpg">
+			<img class="gyros col-md-3"src ="lambgyro.jpg">
+			<img class="taco col-md-3"src ="taco.jpg">
+		</div>
+		<div class="row">
+			<img class"falafel col-md-3"src ="falafel.jpg">
+			<img class="italy col-md-3"src ="italy.jpg">
+			<img class="indianfood col-md-3"src ="indianfood.jpg">
+		</div>
+	</div>
+
 		<script type="text/javascript" src = "jquery-1.11.3.min.js"></script>
 		<script type="text/javascript">
 
