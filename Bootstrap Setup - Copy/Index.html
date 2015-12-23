@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Got Food?</title>
+		<meta charset = "UTF-8">
+		<meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1">
+		<meta name = "description" content = "">
+		<meta name = "author" content = "">
+		<link href = "Bootstrap/css/bootstrap.min.css" rel = "stylesheet">
+	</head>
+
+	<style type="text/css">
+		h1{
+			color: #18FF6D;
+			font-family: Futura,"Trebuchet MS",Arial,sans-serif;
+			font-size: 50px;
+			background-color: yellow;
+			text-align: center;
+			border-radius: 20px;
+			height: 60px;
+			width: 100%;
+			padding-left: 30px;
+		}
+		h2{
+			color: #97C8EB;
+			font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+			padding-left: 155px;
+			text-decoration: underline;
+		}
+		.noodles{
+			height: 290px;
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+		.pasta{
+			height: 290px;
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+		.american{
+			height: 290px;
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+		.indianfood{
+			height: 290px;
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+		.sushi{
+			height: 290px;
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+		.mideast{
+			height: 290px;
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+		#middleeast{
+			padding-left: 135px;
+		}
+		#china{
+			padding-left: 150px;
+		}
+		img {
+    		width: 100%;
+		}	
+		.tooshort{
+			padding-left: 165px;
+		}
+		.mexican{
+			height: 290px;
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+		.pho{
+			height: 290px;
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+		#vietnam{
+			padding-left: 135px;
+		}
+		.greek{
+			height: 290px;
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+		#bottom {
+			margin-bottom: 30px;
+		}
+		#copyright{
+			text-align: center;
+		}
+		h3{
+			font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+			margin-left: 30px;
+			
+		}
+	</style>
+	<body>
+
+		<h1>Great Food and Restaurants</h1>
+
+
+		<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#indy">Indian</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+		<div class="row col-md-12">
+			<div class="col-md-4">
+				<h2 id="china">Chinese</h2>
+				<img src="beef noodles.jpg" class="col-md-12 noodles">
+				<h3>TK Noodle: 1792 N Milpitas Blvd - Milpitas, CA 95035</h3>
+				<h3>Din Tai Fung: 2855 Stevens Creek Blvd - Santa Clara, CA 95050</h3>
+			</div>
+			<div class="col-md-4">
+				<h2 class="tooshort">Italian</h2>
+				<img src="italian.jpg" class="col-md-12 pasta">
+			</div>
+			<div class="col-md-4">
+				<h2>American</h2>
+				<img src="americanfood.jpg" class="col-md-12 american">
+			</div>
+		</div>
+		<div class="row col-md-12">
+			<div class="col-md-4">
+				<h2 class="tooshort" id="indy">Indian</h2>
+				<img src="indianfood.jpg" class="col-md-12 indianfood">
+			</div>
+			<div class="col-md-4">
+				<h2 id="japan">Japanese</h2>
+				<img src="sushi.jpg" class="col-md-12 sushi">
+			</div>
+			<div class="col-md-4">
+				<h2 id="middleeast">Mid-Eastern</h2>
+				<img src="mideastfood.jpg" class="col-md-12 mideast">
+			</div>
+		</div>
+		<div class="row col-md-12" id = "bottom">
+			<div class="col-md-4">
+				<h2>Mexican</h2>
+				<img src="mexicanfood.jpg" class="col-md-12 mexican">
+			</div>
+			<div class="col-md-4">
+				<h2 id="vietnam">Vietnamese</h2>
+				<img src="pho.jpg" class="col-md-12 pho">
+			</div>
+			<div class="col-md-4">
+				<h2 class="tooshort">Greek</h2>
+				<img src="greek.jpg" class="col-md-12 greek">
+			</div>
+		</div>
+		<h5 id="copyright">Copyright © Dario and Una Inc. 2015</h5>
+		<script type="text/javascript" src = "jquery-1.11.3.min.js"></script>
+		<script type="text/javascript"></script>
+
+	</body>
+
+</html>
